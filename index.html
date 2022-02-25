@@ -4,12 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Something</title>
+    <title>How To Use SweetAlert</title>
+    <style>
+        #btn{
+            width: 500px;
+            height: 200px;
+            background-color: #0000de;
+            color: white;
+            margin: 250px;
+            margin-left: 400px;
+            font-size: 50px;
+            border: #00c4de solid ;
+        }
+        .swal-button{
+            background-color: black;
+            border: none;
+            color: cyan;
+        }
+    </style>
 </head>
 <body>
-    <p id="p">Hello, World!</p>
-    <button onclick="dosomething(document.getElementById('p'))">Click Me</button>
-    <script src="script.js"></script>
+    <button id="btn">Click Me!</button>
 </body>
-
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script src="script.js"></script>
 </html>
